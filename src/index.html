@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento de aniversário fictício</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/main.scss">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+ 
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/ebac_logo.png" alt="Logo EBAC">
+            <p class="hero__text">
+                Meu aniversário começa em: <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização:</b>
+                        Alpen | Bar e restaurante
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b> Valor: </b>
+                        A partir de R$: 120,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando?</b>
+                        01/03/2024 às 17h30
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Faça já a sua reserva!
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="event__title">
+        <h2 >- Como tudo funciona...? -</h2>
+    </div>
+
+    <section class="event event--frontend" >
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Vai ter show de rock bebê</h2>
+                <p class="event__details__description">
+                    E claro que o show de rock não poderia faltar né. A banda vai tocar o bom e velho rock n roll para a alegria da galera! <br>
+                    Vamos cantar juntos, levantar os braços, bater palmas e gritar "bis"! <br>
+                    O coro vai comer com o Charlie Brown Junior, Nirvana, Foo Figthers, Pearl Jam, Janis Joplin, The Who, Dead Fish, Mamonas Assassinas, Green Day, R.E.M., The Offspring entre outros.
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="Imagem show">
+        </div>
+    </section>
+
+    <section class="event event--ux-ui event--image-left" >
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Aquela vista do por do sol</h2>
+                <p class="event__details__description">Aqui é possível desfrutar de uma experiência incrível com aquela vista maravilhosa do pôr do sol. <br>
+                Vamos relaxar e apreciar a beleza da natureza nesse ambiente acolhedor, preparado especialmente para proporcionar uma atmosfera única durante o pôr do sol. <br> <br>
+                Quando seus olhos refletem o pôr-do-sol, é quando você para pra ver e apreciar o universo. Quando seus olhos refletem o pôr-do-sol, é quando você para pra refletir sobre o que é certo... O melhor da vida, é a sensação de paz e amor... ♫ ♥</p>
+            </div>
+            <img class="event__image" src="./images/ui-ux.png" alt="Imagem UX/UI">
+        </div>
+    </section>
+
+    <section class="event event--data-science" >
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Bateu aquela fome?</h2>
+                <p class="event__details__description">Na hora da fome, aqui tem ótimas opções. <br>
+                Uma delas é a coxinha de costela (ou de frango). Ela é crocante por fora, sem massa, empanada direto do recheio, bem macia e sequinha.<br>
+                A comida tem o poder de nos conectar com nossas raízes, cultura e tradições. <br>
+                Agora, imagina ver o por do sol, onde nossos sentidos encontram-se em harmonia, com a presença de comidas saborosas, como a coxinha... Pode tornar-se uma experiência ainda mais completa e inesquecível. <br> <br>
+                Gostamos de compartilhar momentos inesquecíveis ao redor da mesa, apreciando sabores e contando histórias, criando laços emocionais que perduram ao longo do tempo.
+            
+            </p>
+            </div>
+            <img class="event__image" src="./images/data.png" alt="Imagem data science">
+        </div>
+    </section>
+
+    <section class="event event--backend event--image-left" >
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Veio só para beber?...</h2>
+                <p class="event__details__description">Você também está no lugar certo! Tem vinho, cerveja, drinks (autorais e incríveis), uisque, aperol e o que você mais desejar! <br>
+                Aqui a variedade das bebidas é tão impressionante quanto o por do sol! <br>
+                Independentemente da bebida escolhida (alcóolica ou não), vamos brindar à vida e ao     espetáculo majestoso do pôr do sol.    
+                </p>
+            </div>
+            <img class="event__image" src="./images/backend.png" alt="Imagem Back-end">
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
